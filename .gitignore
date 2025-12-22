@@ -1,0 +1,33 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Ambientes Virtuais ===
+venv/
+env/
+.env
+.venv/
+
+# === IDEs e Editores ===
+.vscode/
+.idea/
+
+# === Banco de Dados e Logs ===
+*.sqlite3
+*.log
+local_db/
+
+# === Modelos e Dados Pesados (Evitar subir arquivos gigantes) ===
+# Se quiser versionar o modelo, remova a linha abaixo
+*.pth
+*.pt
+*.bin
+training_data/
+datasets/
+data/
+venv_gpu/
+
+# === Sistema Operacional ===
+.DS_Store
+Thumbs.db
