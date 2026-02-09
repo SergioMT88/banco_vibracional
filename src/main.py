@@ -1,6 +1,6 @@
 import os
-from banco_vibracional import VibrationalDB
-from cristal import salvar_cristal, carregar_cristal
+from src.banco_vibracional import VibrationalDB
+from src.cristal import salvar_cristal, carregar_cristal
 
 CRISTAL_PATH = "data/cristal_vibracional"
 

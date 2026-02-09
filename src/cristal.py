@@ -37,7 +37,6 @@ def salvar_cristal(db, pasta, salvar_estado=True):
         "embedding_dim": db.embedding_dim,
         "n_modes": db.n_modes,
         "k_neighbors": db.k_neighbors,
-        "beta": db.beta,
         "num_concepts": len(db.concepts),
     }
 
@@ -54,7 +53,6 @@ def carregar_cristal(DBClass, pasta):
         embedding_dim=meta["embedding_dim"],
         n_modes=meta["n_modes"],
         k_neighbors=meta["k_neighbors"],
-        beta=meta["beta"],
     )
 
     # conceitos
